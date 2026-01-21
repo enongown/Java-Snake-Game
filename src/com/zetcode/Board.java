@@ -114,6 +114,7 @@ public class Board extends JPanel implements ActionListener {
         }        
     }
 
+    //This poetions creates the graphic whenever the player dies
     private void gameOver(Graphics g) {
         
         String msg = "Game Over";
